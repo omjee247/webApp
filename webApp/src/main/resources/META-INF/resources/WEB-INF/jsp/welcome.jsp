@@ -1,11 +1,12 @@
 <html>
 	<head>
 		<link href="webjars/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
-		<title> My first HTML Page - JSP</title>
+		<title> Welcome page</title>
 	</head>
 	<body>
 		<div class="container">
-			My first html page with body - JSP
+			<div>Hi ${name} Welcome to Welcome Page</div>
+			<div><a href="todo-List">Manage</a> Your todo</div>
 		</div>
 	</body>
 	<script src="webjars/bootstrap/5.1.3/js/bootstrap.min.js"></script>
